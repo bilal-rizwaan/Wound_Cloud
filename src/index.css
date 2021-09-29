@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+	overflow-x: hidden;
+	 font-size: 100%;
+	 font-family: 'Roboto', sans-serif;
+}
+*{outline: none;}
+a{text-decoration: none !important;}
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.search-icon {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 12px 24px;
+  width: 75%;
+  margin: 34px 0;
+}
+.header-navigation-menu .navbar-brand {
+  float: left;
+  height: auto;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  width: 185px;
+  margin: 29px 0;
+}
+.navbar-header {
+  margin: 35px 0;
+}
+header ul.navbar-nav {
+  margin: 33px 0;
+}
+.search-icon a .fa {
+  float: left;
+  margin: 0px 10px;
+  color: #0d7da2;
+  font-size: 21px;
+}
+header ul li a {
+  font-size: 14px;
+  color: #fff !important;
+  text-align: left;
+  margin: 0;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 600;
+  padding: 12px 12px !important;
+  font-family: 'Roboto', sans-serif;
+}
+header .navbar-nav {
+  padding-left: revert;
+  text-align: center;
+}
+
+li.nav-item.active a {
+  color: #f34040 !important;
+}
+
+/* header ends */
+/* banner sec start */
+.carousel-captionDiv h1 {
+  color: #ffffff;
+  font-size: 55px;
+  text-align: left;
+  line-height: 60px;
+  font-weight: 500;
+}
+.carousel-captionDiv h2 {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  width: 70%;
+}
+.carousel-captionDiv p {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.slider-button {
+  background-color: #f34040;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 30px;
+  float: left;
+  border-radius: 5px;
+}
+.slider-button:hover,.slider-button:focus{
+  background-color: black;
+  color: #fff;
+}
+section.bannersec .carousel-caption {
+  top: 13%;
+  bottom: 0;
+  display: flex !important;
+  align-items: center;
+  left: 11%;
+  right: 11%;
+}
+/* banner sec end */
+
+section.clinical-sec {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.clinical-text h3 {
+  color: #012259;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.clinical-text p {
+  color: #0d0d0d;
+  line-height: 20px;
+  font-size: 14px;
+  width: 90%;
+  font-weight: 400;
+}
+.clinical-text a {
+  background-color: #f34040;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 40px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.clinical-shape a .fa {
+  color: #f34040;
+  font-size: 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 4px;
+  bottom: 19px;
+}
+.clinic-icon {
+  position: relative;
+}
+.clinic-icon:before {
+  content: '';
+  position: absolute;
+  background-color: #ffffff61;
+  width: 85px;
+  height: 85px;
+  bottom: 12px;
+  z-index: 0;
+  border-radius: 50px;
+  left: 10px;
+}
+.clinical-shape:before {
+  content: '';
+  position: absolute;
+  background-image: url(../src/images/clinical-shape.png);
+  background-repeat: no-repeat;
+  width: 624px;
+  height: 619px;
+  left: -74px;
+  background-size: cover;
+  top: -1px;
+}
+.flexRow {
+  align-items: center;
+}
+.clinical-text a:hover{
+  background-color: black;
+  color: #fff;
+}
+
+/*wound advantage sec css start*/
+
+section.wound-advantage-sec {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+section.wound-advantage-sec:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to bottom, #012259, #012259, #012259, #012259, #012259);
+    width: 75%;
+    height: 100%;
+    border-radius: 0 50px 50px 0;
+}
+.wound-list h3 {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.wound-list p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.wound-list-text h4 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.wound-list-text p {
+    color: #7c9cd1;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 90%;
+}
+.wound-list-text {
+    margin-bottom: 50px;
+}
+.wound-advantage-img img {
+    transition: 1s;
+}
+.wound-advantage-img img:hover{
+	transform: scale(1.1);
+}
+/*wound advantage sec css end*/
+
+
+/*company sec start*/
+.our-company-text h3 {
+  color: #012259;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.our-company-text p {
+  color: #0d0d0d;
+  line-height: 20px;
+  font-size: 14px;
+  width: 90%;
+  font-weight: 400;
+}
+.our-company-text a {
+  background-color: #f34040;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 40px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+section.our-company-sec {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  position: relative;
+  background-color: #f4faff3d;
+}
+section.our-company-sec:before {
+  content: '';
+  position: absolute;
+  background-image: url(../src/images/company-shape-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1;
+  bottom: -25%;
+  background-position: center;
+}
+.company-img img {
+  transition: 1s;
+}
+.company-img img:hover{
+transform: scale(1.1);
+}
+.company-img {
+  padding-bottom: 100px;
+  position: relative;
+}
+.company-img:before {
+  content: '';
+  position: absolute;
+  background-image: url(../src/images/clinical-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+  width: 670px;
+  z-index: -1;
+  top: -76px;
+  left: -82px;
+}
+.our-company-text a:hover{
+  background-color: black;
+  color: #fff;
+}
+/*company sec end*/
+
+/* events sec css start */
+section.Eventsec {
+  background-color: #e8f5ff63;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.upcomingtext h3 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #131415;
+}
+.upcomingtext p {
+  color: #0d0d0d;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  width: 60%;
+  margin: 1% auto 8%;
+  display: table;
+  text-align: center;
+}
+
+.event-text h4 {
+  color: #131415;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.event-text p {
+  color: #131415;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.event-img {
+  position: relative;
+  padding-bottom: 40px;
+}
+.event-img span {
+  color: #f34040;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 5px 0;
+  position: absolute;
+  top: 11px;
+  border-radius: 9px;
+  left: 14px;
+  text-transform: uppercase;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+}
+/* events sec css end */
+
+
+/*contact sec start*/
+section.contact-sec {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+section.contact-sec:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(to bottom, #012259, #012259, #012259, #012259, #012259);
+  width: 75%;
+  height: 100%;
+  border-radius: 0 70px 70px 0;
+}
+.contact-text h3 {
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.contact-text p {
+  color: #7c9cd1;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.contact-list input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0 54px;
+  margin: 5px 0;
+  background-color: #ffffff2e;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+}
+.contact-list textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: 0;
+  padding: 15px 54px;
+  margin: 5px 0;
+  background-color: #ffffff2e;
+  color: #fff;
+   font-weight: 600;
+  font-size: 12px;
+}
+.contact-list button {
+  background-color: #f34040;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 56px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 0;
+}
+.contact-list {
+  position: relative;
+}
+.contact-list img {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+}
+.contact-img img{transition: 1s;}
+.contact-img img:hover{transform: scale(1.1);}
+/*contact sec end*/
+
+
+/*phone line sec strat*/
+section.phone-line-sec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.phone-line-text h5 {
+  color: #012259;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.phone-no a {
+  color: #f34040;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+}
+.phone-boder-line {
+  border-bottom: 1px solid #e5e8ee;
+  margin: 0 0 5px 0;
+}
+.phone-no {
+  padding-top: 11px;
+}
+/*phone line sec end*/
